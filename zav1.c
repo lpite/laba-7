@@ -34,6 +34,6 @@ int main() {
   for (int i = maxWordStart; i < maxWordStart + maxWordLen; ++i) {
     printf("%c", Str[i]);
   }
-
-  return 0;
+  
+    return 0;
 }
