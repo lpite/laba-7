@@ -8,7 +8,10 @@
 #define MAX_STRING_LENGTH 1000
 
 int main() {
-    char str[] = "6:test6;71:test87;2:tesf12;156:salo;1:ss;";
+    char str[MAX_STRING_LENGTH2] = "";
+    puts("enter string = ");
+    scanf("%s",&str);
+    
     char *token=NULL, *saved=NULL;
     int index = 0;
     char* parr[MAX_ELEMENTS_COUNT] = {""};
