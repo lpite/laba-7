@@ -8,11 +8,13 @@
 #define MAX_STRING_LENGTH 1000
 
 int main() {
+
   char str[] = "6:test6;71:test87;2:tesf12;156:salo;1:ss;";
   char *token = NULL, *saved = NULL;
   int index = 0;
   char *parr[MAX_ELEMENTS_COUNT] = {""};
   token = strtok_s(str, ";", &saved);
+
 
   while (token != NULL) {
     if (token != NULL) {
