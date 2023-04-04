@@ -12,7 +12,7 @@ void slice(const char *str, char *result, size_t start, size_t end) {
 int main() {
   char str[] = "77+8*6";
   int strLen = sizeof(str) / sizeof(char) - 1;
-  printf("str = %s\nstrLen = %d\n", str, strLen);
+  //printf("str = %s\nstrLen = %d\n", str, strLen);
   int result = 0;
 
   // 1 - *

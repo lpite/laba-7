@@ -11,9 +11,9 @@ int main() {
     if (el == 32 || slen == i + 1) {
       int wordStart = i - thisWordLength;
       int isPalindrome = 1;
-      int bandera = thisWordLength % 2 == 0 ? wordStart + (thisWordLength) / 2
+      int idk = thisWordLength % 2 == 0 ? wordStart + (thisWordLength) / 2
                                             : wordStart + thisWordLength;
-      for (int i2 = wordStart; i2 < bandera; i2++) {
+      for (int i2 = wordStart; i2 < idk; i2++) {
         int rever = ((wordStart + thisWordLength) - i2 - 1) + wordStart;
         if (str[i2] != str[rever]) {
           isPalindrome = 0;
